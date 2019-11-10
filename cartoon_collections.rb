@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarf_names)# code an argument here
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   row_index = 0
   while i < dwarf_names.count do
