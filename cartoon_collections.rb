@@ -1,6 +1,8 @@
 def roll_call_dwarves(dwarf_names)# code an argument here
   # Your code here
-  
+  i = 0
+  while i < dwarf_names.length do
+    puts 
 end
 
 def summon_captain_planet# code an argument here
