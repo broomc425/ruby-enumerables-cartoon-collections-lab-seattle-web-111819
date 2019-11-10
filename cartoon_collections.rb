@@ -1,8 +1,13 @@
 def roll_call_dwarves(dwarf_names)# code an argument here
   # Your code here
-  i = 0
-  while i < dwarf_names.length do
-    puts 
+  row_index = 0
+  while i < dwarf_names.count do
+    element_index = 0
+    while element_index < dwarf_names.length[row_index].count do
+      dwarf_names[row_index][element_index]
+      element_index += 1
+    end
+    row_index += 1
 end
 
 def summon_captain_planet# code an argument here
